@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <item
+        android:title="Preferences"
+        android:id="@+id/preference"
+        android:alphabeticShortcut="p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </item>
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </item>
+</menu>

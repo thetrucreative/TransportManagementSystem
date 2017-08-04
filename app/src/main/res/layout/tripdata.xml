@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+
+    tools:context="test.ghostofart.example.com.mytest.TripData"
+    android:background="#7c6e8d">
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="USiU-Africa Transport Management"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Transport Office Email Adress"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etTransEmailAddr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" >
+            </EditText>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Driver Name" />
+            <EditText
+                android:id="@+id/etDriverName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" >"
+            </EditText>
+
+        ©USiU-Africa:  Ahenda J. A. [Fall2014] Page 4
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Number" />
+            <EditText
+                android:id="@+id/etVehicleNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapCharacters">
+            </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+            <EditText
+                android:id="@+id/etTripDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date">
+            </EditText>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Time" />
+            <EditText
+                android:id="@+id/etStartTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time">
+            </EditText>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:text="Specific Trip/Journey Details" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Mileage" />
+            <EditText
+                android:id="@+id/etMileage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number">
+            </EditText>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Purpose" />
+            <EditText
+                android:id="@+id/etPurpose"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text">"
+            ©USiU-Africa:  Ahenda J. A. [Fall2014] Page 5
+
+        </EditText>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="From" />
+
+        <EditText
+            android:id="@+id/etFrom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="USiU">
+        </EditText>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="To" />
+            <EditText
+                android:id="@+id/etTo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:inputType="text"
+                android:hint="Nairobi CBD">
+            </EditText>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50">
+        <Button
+            android:id="@+id/bSendMail"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:text="Send Mail" />
+        <AnalogClock
+            android:id="@+id/analogClock1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

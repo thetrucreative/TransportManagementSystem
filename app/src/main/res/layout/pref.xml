@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <EditTextPreference
+        android:title="Email Address"
+        android:key="transOfficeEmail"
+        android:summary="Enter Transport officer email address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditTextPreference
+        android:title="Driver Name"
+        android:key="driverName"
+        android:summary="Enter drivers name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditTextPreference
+        android:title="Vehicle Number"
+        android:key="vehicleNumber"
+        android:summary="Enter vehicle number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditTextPreference
+        android:title="Trip Date"
+        android:key="tripDate"
+        android:summary="Enter trip date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditTextPreference
+        android:title="Trip Start Time"
+        android:key="startTime"
+        android:summary="Enter Start Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBoxPreference
+        android:title="Play Music"
+        android:key="playMusic"
+        android:summary="Check to play Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</PreferenceScreen>
